@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:background="@color/row_bg"
+    android:layout_marginLeft="@dimen/item_margin_hor"
+    android:layout_marginRight="@dimen/item_margin_hor"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="@dimen/item_margin_hor_row"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:maxLines="2"
+            android:minLines="2"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/text_headline_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_snippet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/text_snippet_margin_top"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:maxLines="3"
+            android:minLines="3"
+            android:textColor="@color/text_snippet"
+            android:textSize="@dimen/text_snippet_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_height"
+        android:background="@color/black_opaque"
+        android:orientation="vertical"/>
+
+</LinearLayout>
