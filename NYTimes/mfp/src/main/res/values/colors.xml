@@ -15,12 +15,12 @@
     <color name="colorGreyLight">#8A8A8A</color>
     <color name="colorTransparent">#00000000</color>
 
-    <color name="text_snippet">#F5F5F5</color>
+    <color name="text_snippet">#C5C5C5</color>
     <color name="text_white">#ffffff</color>
 
     <color name="divider">#E0E0E0</color>
 
     <color name="toolbar">#353535</color>
-    <color name="row_bg">#424242</color>
+    <color name="row_bg">#282828</color>
     <color name="black_opaque">#AA000000</color>
 </resources>
