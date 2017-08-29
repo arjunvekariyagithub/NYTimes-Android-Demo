@@ -8,7 +8,7 @@ Android challenge for MFP
   - [Dagger](https://google.github.io/dagger/) for dependency injection
  
 ## Architecture
-  - [MVP](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter) (Mode-View-Presenter)
+  - [MVP](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter) (Model-View-Presenter)
   - There are many architectures available for application design: MVC, MVP, MVVC etc. I have used MVP as Presenter in MVP is 
     just an interface and not at all tied to the View. Due to this, MVP is quite suitable for unit and instrumentation testing 
     as well as it is more flexible compare to MVC.
