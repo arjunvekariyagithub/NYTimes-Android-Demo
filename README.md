@@ -1,5 +1,5 @@
 # NYTimes-Android-Demo
-Android challenge for MFP
+NYTimes Android API sample
 
 ## Libraries
   - [Retrofit](https://square.github.io/retrofit/) as HTTP client
